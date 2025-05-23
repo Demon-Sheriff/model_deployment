@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+ML-deployment/
+.env/
+
+# Ignore Git and logs
+.git/
+*.log
+
+# Ignore OS/filesystem junk
+.DS_Store
+Thumbs.db
+
+# Ignore model training artifacts (if not needed)
+*.ipynb_checkpoints
+
+# Ignore other stuff
+Flask-HTMLhouseprice-main/
