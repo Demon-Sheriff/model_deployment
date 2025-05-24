@@ -73,5 +73,5 @@ jobs:
         with: 
           service: ${{ secrets.ECS_SERVICE }}
           cluster: excited-turtle-rk7
-          task-defintion: ${{ steps.render-task.outputs.task-definition }}
+          task-definition: ${{ steps.render-task.outputs.task-definition }}
           wait-for-service-stability: true
