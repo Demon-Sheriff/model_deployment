@@ -25,5 +25,5 @@ import requests
 #         pixels[i + 14] = 255
 pixels = [0]*784
 print(len(pixels))
-response = requests.post("http://localhost:5000/predict", json={"pixels": pixels})
+response = requests.post("http://16.171.200.46:5000/predict", json={"pixels": pixels})
 print(response.json())
