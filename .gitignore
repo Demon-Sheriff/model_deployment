@@ -2,3 +2,6 @@ Flask-HTMLhouseprice-main/
 ML-deployment/
 model/
 awscliv2.zip
+__pycache__
+.pytest_cache
+tests/__pycache__

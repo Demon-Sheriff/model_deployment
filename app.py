@@ -26,4 +26,6 @@ if __name__ == '__main__':
     # print("app running succesfully")
     # this one will probably work.
 
-# This one will proab
+def writing_the_fun():
+    pass
+
